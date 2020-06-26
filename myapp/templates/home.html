@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="kr">
+
+
+    <head>
+        <meta charset="utf-8">
+        
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+        
+        <title>beomtae site_ alpha ver.</title>
+        
+
+    </head>
+
+
+        
+    <body>
+        
+        <header class="header" >
+            <h1>안녕하세요 제 site에 오신것을 환영합니다. <strong>만나서 반갑습니다!</strong></h1>
+        </header>
+
+
+
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="{%url 'list'%}">블로그 글 목록들</a></li>
+                <li class="breadcrumb-item"><a href="{%url 'about'%}"> 범태에 대하여 </a></li>
+                <li class="breadcrumb-item active" aria-current="page">Data</li>
+            </ol>
+        </nav>
+
+
+        <div class="jumbotron">
+            <div class="container">
+            <h1 class="display-3">안녕하세요!</h1>
+            <p>이 사이트는 위대한 동무 김범태가 만든 사이트이며 여러가지 좀 쓸데없는 것들이 있을 것 입니다.</p>
+            <p><a class="btn btn-primary btn-lg" href="{%url 'about'%}" role="button">자세히 알아보기 &raquo;</a></p>
+            </div>
+        </div>
+
+        <div class="container">
+            <!-- Example row of columns -->
+            <div class="row">
+
+                <div class="col-md-4">
+                    <h2>첫번째 뉴스</h2>
+                    <p>첫번째 뉴스입니다. </p>
+                    <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+                </div>
+
+                <div class="col-md-4">
+                    <h2>두번째 뉴스</h2>
+                    <p>두번째 뉴스입니다. </p>
+                    <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+                </div>
+                
+                <div class="col-md-4">
+                    <h2>세번째뉴스</h2>
+                    <p>이하 생략 ...</p>
+                    <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+                </div>
+            </div>
+
+            <hr>
+
+        </div>
+
+
+
+
+        
+
+
+        
+    </body>
+
+</html>
+        
+        
